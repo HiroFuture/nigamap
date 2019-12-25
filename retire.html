@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/sstyle.css">
+    <title>Cafeテスト</title>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div　class="wrapper">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Cafe man</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02"
+                aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample02">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign in / Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign out</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">User</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Store edit</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <!--/.Navbar-->
+        <div class="container">
+
+            <h1 class="mb8p4">nigamaroを退会する</h1>
+            <p class="mb8p4 font12"><strong>ユーザー名（ID:）</strong>は、nigamaroを退会しますか?<br>
+                nigamaroを退会するとアカウントに紐づく情報は破棄され、<br><span
+                    style="color: red">アカウントを復活させることはできません。</span><br>また退会後操作できません。<br>
+                <!--<span style="color: red">削除をご希望の場合は、必ず 退会前にお手続きください。</span><br></p>-->
+                <div class="mb8p4 font12" Align="left"
+                    style="border : solid ; border-color: red; width 420px; margin: auto;">
+                    <ul type="square">
+                        <li>削除される情報(例)</li>
+                        <ul type="disc">
+                            <li>ユーザー名/メールアドレス/個人情報/パスワード</li>
+                        </ul>
+                    </ul>
+                </div>
+                <br>
+                <p class="mb8p4 font12">
+
+
+                    <span style="color: red">上記に同意できましたら</span>入力欄にアカウントのパスワードを入力し<br>「上記事項に同意し退会する」をクリックしてください。
+
+                    <form action="/unregister" name="delete_account" id="delete_account" method="post">
+                        <input type="hidden" name="csrf_token" value="vB8RBFKFNYw9_e_2wIw5xTy3byLrVfkwDX11ss6dGTo">
+                        <input type="hidden" name="csrf_token_expire" value="1574995641164">
+                        <p style="padding:4px;"><input type="password" name="password" id="password" value=""
+                                autocomplete="off" style="width:120px; border:solid 2px #393F3F; padding:2px;"
+                                onKeyPress="return submitStop(event);">
+
+                            <p style="display:none;"><input type="password" name="dummy" value=""></p>
+                            <p class="mb16p4"><input type="button" value="上記事項に同意し退会する" id="unregister-submit"
+                                    class="submit" onclick="check();"></p>
+                        </p>
+                    </form>
+
+                    <p class="mb16p4 font12"><a href="user.html">ユーザー画面へ</a></p>
+                </p>
+            </p>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+.bg {
+  background-image: url(../cafe.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 35%;
+  padding-top: 20%;
+}
