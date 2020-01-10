@@ -1,21 +1,29 @@
+<?php
+require_once('../lib/GnaviCrud.php');
+require_once('../lib/functions.php');
+
+$userResult = [];
+$userReview = [];
+$userRank = [];
+var_dump($userResult = getUser(1111));
+var_dump($userReview = getReview(1111));
+var_dump($userRank = getRank(1111));
+?>
 <!doctype html>
 <html lang="ja">
 
 <head>
     <?php require_once('template/header.php') ?>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!--Navbar-->
     <!--/.Navbar-->
     <div class="mt-3">
-
         <div class="container emp-profile">
             <form method="post">
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="profile-img">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52y5aInsxSm31CvHOFHWujqUx_wWTS9iM6s7BAm21oEN_RiGoog" alt="" />
+                        <div class="profile-img mt-5">
+                            <img src="img/<?= h($userResult[0]['user_icon']) ?> " width="160" height="130" alt="ユーザーのアイコン" />
                             <!--<div class="file btn btn-lg btn-primary">
                                 Change Photo
                                 <input type="file" name="file" />
@@ -25,9 +33,9 @@
                     <div class="col-md-6">
                         <div class="profile-head">
                             <h5>
-                                Yuki Kanaya
+
                             </h5>
-                            <p class="proile-rating">RANKINGS : <span>8/10</span></p>
+                            <p class="proile-rating">RANKINGS : <span><?= h($userRank[0]['rank']) ?> </span></p>
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                 <li class="nav-item">
                                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
@@ -48,7 +56,7 @@
                                         <label>ユーザー ID</label>
                                     </div>
                                     <div class="col-md-6">
-                                        <p>Kshiti123</p>
+                                        <p>1111</p>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -56,7 +64,7 @@
                                         <label>名前</label>
                                     </div>
                                     <div class="col-md-6">
-                                        <p>Yuki Kanaya</p>
+                                        <p><?= h($userResult[0]['user_name']) ?></p>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -72,17 +80,24 @@
                                         <label>年齢</label>
                                     </div>
                                     <div class="col-md-6">
-                                        <p>20</p>
+                                        <p><?= h($userResult[0]['age']) ?></p>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <label>性別</label>
+                                <?php
+                                $gender = numToGender($userResult[0]['gender']);
+                                if ($gender === "無記入") :
+                                ?>
+                                    <div></div>
+                                <?php else : ?>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>性別</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p><?= h(numToGender($userResult[0]['gender'])) ?></p>
+                                        </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <p>男</p>
-                                    </div>
-                                </div>
+                                <?php endif; ?>
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <div class="row">
@@ -90,7 +105,7 @@
                                         <label>行った店の数</label>
                                     </div>
                                     <div class="col-md-6">
-                                        <p>300</p>
+                                        <p><?= h($userRank[0]['how_visited']) ?></p>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -106,12 +121,18 @@
                         </div>
                     </div>
                 </div>
+            </form>
+            <p><?= h($userResult[0]['user_name'])  ?>のレビュー</p>
+            <p><?php foreach ($userReview as $f) { ?>
+                    <p><?= h($f['g_shop_name']) ?></p>
+                    <p><?= h($f['g_shop_review']) ?></p>
+                <?php } ?>
         </div>
-        </form>
     </div>
-    </div>
+
     <div class="mx-auto" style="width: 100px">
         <div class="row">
             <button type="button" class="btn btn-outline-danger">退会</button>
         </div>
     </div>
+    <?php require_once('template/footer.php') ?>

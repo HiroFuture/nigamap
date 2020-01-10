@@ -23,7 +23,7 @@
                 </div>
                 <div id="card-4a" class="collapse" aria-labelledby="header-4a" data-parent="#accordion-4">
                     <div class="card-body">
-                        <a href="howto.html">こちら</a>から確認お願いします。
+                        <a href="howt.php">こちら</a>から確認お願いします。
                     </div>
                 </div>
             </div>
@@ -73,10 +73,10 @@
                     </div>
                     <div id="card-4e" class="collapse" aria-labelledby="header-4b" data-parent="#accordion-4">
                         <div class="card-body">
-                            <a href="retire.html">こちら</a> から退会手続きを行ってください。</div>
+                            <a href="retire.php">こちら</a> から退会手続きを行ってください。</div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
+    <?php require_once('template/footer.php') ?>

@@ -76,3 +76,4 @@
 
   </div>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <?php require_once('template/footer.php') ?>

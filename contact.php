@@ -22,7 +22,7 @@
                                     <div class="card-header p-0">
                                         <div class="bg-info text-white text-center py-2">
                                             <h3><i class="fa fa-envelope"></i>Contactanos</h3>
-                                            <p class="m-0">お問い合わせ内容は<a href="faq.html" class="text-dark">FAQ</a>で解決できるかもしれません</p>
+                                            <p class="m-0">お問い合わせ内容は<a href="faq.php" class="text-dark">FAQ</a>で解決できるかもしれません</p>
                                         </div>
                                     </div>
                                     <div class="card-body p-3">
@@ -72,4 +72,4 @@
 
         </div>
     </div>
-    </div>
+    <?php require_once('template/footer.php') ?>

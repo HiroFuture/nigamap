@@ -38,7 +38,7 @@
                         <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Store edit</a>
+                        <a class="nav-link" href="storeEdit.php">Store edit</a>
                     </li>
 
                 </ul>
