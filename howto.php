@@ -1,191 +1,100 @@
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+<!DOCTYPE html>
+<html >
+<head>
+  <!-- Site made with Mobirise Website Builder v4.7.1, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v4.7.1, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="css/a1.css" type="image/x-icon">
+  <meta name="description" content="HTML Template for Cafe eCommerce Website. Download Now!">
+  <title>HTML eCommerce Website Template for Cafe</title>
+  <link rel="stylesheet" href="css/a2.css">
+  <link rel="stylesheet" href="css/a3.css">
+  <link rel="stylesheet" href="css/a4.css">
+  <link rel="stylesheet" href="css/a5.css">
+  <link rel="stylesheet" href="css/a6.css">
+  <link rel="stylesheet" href="css/a7.css">
+  <link rel="stylesheet" href="css/a8.css">
+  <link rel="stylesheet" href="css/a9.css">
+  <link rel="stylesheet" href="css/a10.css">
+  <?php require_once('template/header.php') ?>
+</head>
+<body>
 
-    <title>Carousel Template for Bootstrap</title>
+<!-- Google Analytics -->
+<!-- Google Analytics -->
+<!-- Google Analytics -->
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PFK425"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PFK425');</script>
+<!-- End Google Tag Manager -->
+<!-- /Google Analytics -->
+<!-- /Google Analytics -->
+<!-- /Google Analytics -->
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
 
-    <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
-  </head>
-  <body>
+<section class="header7 cid-qIoWJUOnqf mbr-parallax-background" id="header1-1">
 
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Carousel</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-    </header>
+    <div class="container text-content">
 
-    <main role="main">
+        <!--<h4 class="mbr-section-subtitle mbr-fonts-style align-center mbr-white display-5">WANT TO HAVE A GOOD TIME AND TO DRINK SOME COFFEE?</h4>-->
 
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-            <div class="container">
-              <div class="carousel-caption text-left">
-                <h1>Example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-              </div>
+        <h1 class="mbr-section-title pb-3 mbr-fonts-style mbr-white align-center display-1">nigamaroの使い方</h1>
+        <!--<p class="mbr-text pb-3 mbr-fonts-style mbr-white align-center display-7">Our Cafe was created by the owners of Mobirise eCommerce Website Builder to bring endeavor ready clients, locals, and travelers a truly unique coffee experience.</p>
+        <div class="mbr-section-btn pb-5 align-center"><a class="btn btn-md btn-bgr btn-info display-4" href="https://mobirise.com">Read More</a></div>-->
+    </div>
+    <div class="container mbr-black">
+        <div class="row justify-content-center">
+            <div class="box-item col-md-4">
+                <div class="icon-block-top pb-4 align-center">
+                    <img class="mbr-iconfont display-2" src="img/mbri-search.svg" style="color: rgb(233, 97, 136);"></span>
+                </div>
+                <h4 class="box-item-title pb-3 mbr-fonts-style align-center display-5">検索する</h4>
+                <p class="box-item-text mbr-fonts-style align-center display-7"> カフェの場所を地図上で探し、そこへの行き方や移動距離を調べることができます。また、営業時間や価格などの情報をチェックできます。</p>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-              </div>
+            <div class="box-item col-md-4">
+                <div class="icon-block-top pb-4 align-center">
+                    <img class="mbr-iconfont display-2" src="img/mbri-magic-stick.svg" style="color: rgb(233, 97, 136);"></span>
+                </div>
+                <h4 class="box-item-title pb-3 mbr-fonts-style align-center display-5">便利な機能</h4>
+                <p class="box-item-text mbr-fonts-style align-center display-7">お気に入り登録、検討リスト、絞り込み検索（Wi-Fi・カード決済・喫煙可）</p>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-            <div class="container">
-              <div class="carousel-caption text-right">
-                <h1>One more for good measure.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-              </div>
+            <div class="box-item col-md-4">
+                <div class="icon-block-top pb-4 align-center">
+                    <img class="mbr-iconfont display-2" src="img/mbri-like.svg" style="color: rgb(233, 97, 136);"></span>
+                </div>
+                <h4 class="box-item-title pb-3 mbr-fonts-style align-center display-5">評価</h4>
+                <p class="box-item-text mbr-fonts-style align-center display-7">行ったことがあるカフェに評価をつけたりクチコミを投稿したりして、自分の
+感想を公開できます。
+</p>
             </div>
-          </div>
         </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
+    </div>
+</section>
 
-
-      <!-- Marketing messaging and featurettes
-      ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
-
-      <div class="container marketing">
-
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-
-
-        <!-- START THE FEATURETTES -->
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- /END THE FEATURETTES -->
-
-      </div><!-- /.container -->
-
-
-      <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-    </main>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../../assets/js/vendor/holder.min.js"></script>
-  </body>
-</html>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/mbr-testimonials-slider/mbr-testimonials-slider.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/parallax/jarallax.min.js"></script>
+  <script src="assets/mbr-flip-card/mbr-flip-card.js"></script>
+  <script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
+  <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
+  <script src="assets/sociallikes/social-likes.js"></script>
+  <script src="assets/dropdown/js/script.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  <script src="assets/formoid/formoid.min.js"></script>
+  
+  
+  <?php require_once('template/footer.php') ?>

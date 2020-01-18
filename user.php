@@ -72,7 +72,7 @@ var_dump($userRank = getRank(1111));
                                         <label>Email</label>
                                     </div>
                                     <div class="col-md-6">
-                                        <p>f18ba015@gmail.com</p>
+                                        <p><?= h($userResult[0]['email']) ?></p>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -123,10 +123,13 @@ var_dump($userRank = getRank(1111));
                 </div>
             </form>
             <p><?= h($userResult[0]['user_name'])  ?>のレビュー</p>
-            <p><?php foreach ($userReview as $f) { ?>
-                    <p><?= h($f['g_shop_name']) ?></p>
-                    <p><?= h($f['g_shop_review']) ?></p>
-                <?php } ?>
+            <p><?php foreach ($userReview as $array) : 
+                if($array['hide'] === "0") :?>
+                    <p><?= h($array['g_shop_name']) ?></p>
+                    <p><?= h($array['g_shop_review']) ?></p>
+                    <?php endif ; ?>
+                <?php endforeach ; ?>
+                
         </div>
     </div>
 

@@ -23,7 +23,7 @@
                 </div>
                 <div id="card-4a" class="collapse" aria-labelledby="header-4a" data-parent="#accordion-4">
                     <div class="card-body">
-                        <a href="howt.php">こちら</a>から確認お願いします。
+                        <a href="howto.php">こちら</a>から確認お願いします。
                     </div>
                 </div>
             </div>
