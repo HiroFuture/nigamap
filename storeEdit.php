@@ -22,7 +22,7 @@
             <!-- <form class="needs-validation" novalidate> -->
             <div class="mb-3">
               <label for="storename">店舗名</label>
-              <input type="text" class="form-control" name="store[]" value="" placeholder="店舗名" required>
+              <input type="text" class="form-control" name="store[storename]" value="" placeholder="店舗名" required>
               <div class="invalid-feedback">
                 <!-- </form> -->
                 編集する店舗名を入力してください
@@ -31,7 +31,7 @@
             <div class="row">
               <div class="col-md-3 mb-3">
                 <label for="productname">商品名</label>
-                <input type="text" class="form-control" name="store[]" value="" placeholder="商品名" required>
+                <input type="text" class="form-control" name="store[productname]" value="" placeholder="商品名" required>
                 <div class="invalid-feedback">
                   商品名を入力してください
                 </div>
@@ -39,14 +39,14 @@
               </div>
               <div class="col-md-3 mb-3">
                 <label for="price">価格</label>
-                <input type="tel" class="form-control" name="store[]" value="" placeholder="税込み価格を入力" required>
+                <input type="tel" class="form-control" name="store[price]" value="" placeholder="税込み価格を入力" required>
                 <div class="invalid-feedback">
                   価格を入力してください
                 </div>
               </div>
               <div class="col-md-5 mb-3">
                 <label for="telno">電話番号</label>
-                <input type="tel" class="form-control" name="store[]" value="" placeholder="000-111-2222">
+                <input type="tel" class="form-control" name="store[telno]" value="" placeholder="000-111-2222">
               </div>
 
             </div>
@@ -56,11 +56,11 @@
             <div class="row">
               <div class="col-md-3 mb-3">
                 <label>開店時間</label>
-                <p><input type="time" step="600" name="open" required></p>
+                <p><input type="time" name="　store[open]" value="00:00" step="600"  required></p>
               </div>
               <div class="col-md-3 mb-3">
-                <label for="zip">閉店時間</label>
-                <p><input type="time" step="600" required></p>
+              <label>閉店時間</label>
+                <p><input type="time" name="store[zip]" value="24:00" step="600" required></p>
               </div>
             </div>
             <hr class="mb-4">
@@ -70,7 +70,7 @@
             </div>
 
             <hr class="mb-4">
-            <button class="btn btn-primary btn-lg btn-block" input type="submit">入力内容を確認</button>
+            <button class="btn btn-primary btn-lg btn-block" input type="submit" value="go">入力内容を確認</button>
           </form>
         </div>
       </div>

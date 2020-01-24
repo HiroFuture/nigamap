@@ -20,38 +20,40 @@
     // }
     ?>
     <h3 class="text-center ct mt-3">以下の内容でよろしいですか？</h3>
-    <?php var_dump($_POST['open'])?>
+    
+    <?php
+    $account = $_POST['store'];
+    var_dump($account); ?>
+    <!-- <?php var_dump($_POST['store']) ?> -->
     <table class="table table-striped">
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 col-lg-6 pb-5">
-
-
                 <tr>
                     <td>店舗名</td>
-                    <td><?= $_POST['storename'] ?></td>
+                    <td><?= $account['storename'] ?></td>
                 </tr>
                 <tr>
                     <td>商品名</td>
-                    <td><?= $_POST['productname'] ?></td>
+                    <td><?= $account['productname'] ?></td>
                 </tr>
                 <tr>
                     <td>価格</td>
-                    <td><?= $_POST['price'] ?></td>
+                    <td><?= $account['price'] ?></td>
                 </tr>
                 <tr>
                     <td>電話番号</td>
-                    <td><?= $_POST['telno'] ?></td>
+                    <td><?= $account['telno'] ?></td>
                 </tr>
                 <tr>
                     <td>開店時間</td>
-                    <td><?= $_POST['open'] ?></td>
+                    <td><?= $account['open'] ?></td>
                 </tr>
                 <tr>
                     <td>閉店時間</td>
-                    <td><?= $_POST['zip'] ?></td>
+                    <td><?= $account['zip'] ?></td>
                 </tr>
             </div>
         </div>
     </table>
     <?php require_once('template/footer.php') ?>
-<!-- バリデート処理 -->
+    <!-- バリデート処理 -->
