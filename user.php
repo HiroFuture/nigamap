@@ -1,6 +1,12 @@
 <?php
 require_once('../lib/GnaviCrud.php');
 require_once('../lib/functions.php');
+require_once(__DIR__ . '/../config/config.php');
+
+//有効の場合、チェックを行っており、ログインしていなければ、該当ページへ飛ばされます。
+//本ページを編集する場合、以下の2行をコメントアウトしてください。
+$app = new MyApp\Controller\User();
+$app->checkLogin();
 
 $userResult = [];
 $userReview = [];

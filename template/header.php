@@ -22,10 +22,10 @@
                         <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sign in / Sign up</a>
+                        <a class="nav-link" href="login.php">Sign in / Sign up</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sign out</a>
+                        <a class="nav-link" href="logout.php">Sign out</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="user.php">User</a>

@@ -18,63 +18,63 @@
 
       <div class="row justify-content-md-center">
         <div class="col-md-8 order-md-1">
-          <!-- <form class="needs-validation" novalidate> -->
+          <form method="post" action="check.php">
+            <!-- <form class="needs-validation" novalidate> -->
             <div class="mb-3">
               <label for="storename">店舗名</label>
-              <form method="post" action="editResult.php">
-                <input type="text" class="form-control" name="param" id="storename" placeholder="店舗名" required>
+              <input type="text" class="form-control" name="store[]" value="" placeholder="店舗名" required>
+              <div class="invalid-feedback">
+                <!-- </form> -->
+                編集する店舗名を入力してください
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 mb-3">
+                <label for="productname">商品名</label>
+                <input type="text" class="form-control" name="store[]" value="" placeholder="商品名" required>
                 <div class="invalid-feedback">
-              <!-- </form> -->
-              編集する店舗名を入力してください
+                  商品名を入力してください
+                </div>
+
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="price">価格</label>
+                <input type="tel" class="form-control" name="store[]" value="" placeholder="税込み価格を入力" required>
+                <div class="invalid-feedback">
+                  価格を入力してください
+                </div>
+              </div>
+              <div class="col-md-5 mb-3">
+                <label for="telno">電話番号</label>
+                <input type="tel" class="form-control" name="store[]" value="" placeholder="000-111-2222">
+              </div>
+
             </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3 mb-3">
-            <label for="productname">商品名</label>
-            <input type="text" class="form-control" id="productname" placeholder="商品名" required>
-            <div class="invalid-feedback">
-              商品名を入力してください
+
+
+
+            <div class="row">
+              <div class="col-md-3 mb-3">
+                <label>開店時間</label>
+                <p><input type="time" step="600" name="open" required></p>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="zip">閉店時間</label>
+                <p><input type="time" step="600" required></p>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="keepCheck">
+              <label class="custom-control-label" for="keepCheck">閉店しています</label>
             </div>
 
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="price">価格</label>
-            <input type="tel" class="form-control" id="price" placeholder="税込み価格を入力" required>
-            <div class="invalid-feedback">
-              価格を入力してください
-            </div>
-          </div>
-          <div class="col-md-5 mb-3">
-            <label for="telno">電話番号</label>
-            <input type="tel" class="form-control" id="telno" placeholder="000-111-2222">
-          </div>
-
+            <hr class="mb-4">
+            <button class="btn btn-primary btn-lg btn-block" input type="submit">入力内容を確認</button>
+          </form>
         </div>
-
-
-
-        <div class="row">
-          <div class="col-md-3 mb-3">
-            <label for="open">開店時間</label>
-            <p><input type="time" step="600" required></p>
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="zip">閉店時間</label>
-            <p><input type="time" step="600" required></p>
-          </div>
-        </div>
-        <hr class="mb-4">
-        <div class="custom-control custom-checkbox">
-          <input type="checkbox" class="custom-control-input" id="keepCheck">
-          <label class="custom-control-label" for="keepCheck">閉店しています</label>
-        </div>
-
-        <hr class="mb-4">
-        <button class="btn btn-primary btn-lg btn-block" input type="submit">送信</button>
-        </form>
       </div>
     </div>
-  </div>
 
   </div>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
