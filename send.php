@@ -28,7 +28,7 @@ $pdb = dbconnect();
 $pdb->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 //insert処理(exec()は結果を返さない。)
 //INSERT分の文字列連結
-$ain = "\"INSERT INTO other_user_data_editing_tbl (other_shop_edit_id,";
+$in = "\"INSERT INTO other_user_data_editing_tbl (other_shop_edit_id,";
 if(!empty($storename)){
     $in .= "shop_name,";
 }
