@@ -122,7 +122,6 @@ var_dump($userRank = getRank(1111));
                                         <p>200</p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -141,7 +140,9 @@ var_dump($userRank = getRank(1111));
 
     <div class="mx-auto" style="width: 100px">
         <div class="row">
-            <button type="button" class="btn btn-outline-danger">退会</button>
+            <!-- <button type="button" class="btn btn-outline-danger">退会</button> -->
+            <a class="btn btn-outline-danger" href="retire.php">退会</a>
+
         </div>
     </div>
     <?php require_once('template/footer.php') ?>

@@ -8,15 +8,12 @@
     <?php require_once('template/header.php') ?>
     <!--Navbar-->
     <!--/.Navbar-->
-    <div class="mt-2 ml-3">
-        <div class="ml-2">
-            <h2>FAQ　〜良くある質問〜</h2>
+    <div class="mt-5">
+        <div class="text-center ">
+            <h2>よくある質問</h2>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <div class="accordion" id="accordion-4">
+    <div class="accordion mx-auto mt-5" style="width: 500px" id="accordion-4">
         <div class="card">
             <div class="card-header" id="header-4a">
                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#card-4a" aria-expanded="true" aria-controls="card-4a">
@@ -55,12 +52,12 @@
         <div class="card">
             <div class="card-header" id="header-4d">
                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#card-4d" aria-expanded="false" aria-controls="card-4d">
-                    現地と価格が間違えている
+                    Web価格と店舗価格が違う
                 </button>
             </div>
             <div id="card-4d" class="collapse" aria-labelledby="header-4d" data-parent="#accordion-4">
                 <div class="card-body">
-                    このサービスではだれでも編集でき、その変更は即座に反映されます。誤記の場合は編集くださいますようお願い致します。
+                    価格の変更は<a href="storeEdit.php">こちら</a>から編集可能です。
                 </div>
             </div>
             <div class="card">

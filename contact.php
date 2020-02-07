@@ -9,20 +9,20 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <div class="container">
-        <div class="mt-3">
+        <div class="mt-5">
 
             <h2 class="text-center ct">お問い合わせ</h2>
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8 col-lg-6 pb-5">
 
                     <!--Form with header-->
-                    <div class="mt-3">
+                    <div class="mt-5">
                         <form action="mail.php" method="post">
                             <div class="card border-primary rounded-0">
                                 <div class="card-header p-0">
                                     <div class="bg-info text-white text-center py-2">
                                         <h3><i class="fa fa-envelope"></i>Contactanos</h3>
-                                        <p class="m-0">お問い合わせ内容は<a href="faq.php" class="text-dark">FAQ</a>で解決できるかもしれません</p>
+                                        <p class="m-0">お問い合わせ内容は<a href="faq.php" class="text-warning">FAQ</a>で解決できるかもしれません</p>
                                     </div>
                                 </div>
                                 <div class="card-body p-3">

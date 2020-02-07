@@ -1,0 +1,60 @@
+/* フロー2 */
+.flow02 {
+    margin: 0 auto 50px;
+    width: 50%;
+}
+/* floatを使うのでclearfixの指定 */
+.flow02:after {
+    height: 0;
+    visibility: hidden;
+    content: ".";
+    display: block;
+    clear: both;
+}
+ 
+.flow02 .box {
+    padding-top: 25px; /* テキストの位置調整 */
+    width: 10%; /* ウィンドウの幅が広くなった時のために％で指定 */
+    height: 55px;
+    background: #9B78FE; /* １番目のボックスの色指定 */
+    float: left; /* 横並び */
+    position: relative;
+ 
+    font-size: 1.6em; /* テキストの指定 */
+    font-weight: bold; /* テキストの指定 */
+    line-height: 1.4; /* テキストの指定 */
+}
+ 
+.flow02 .box02 { background: #789DFE; } /* ２番目のボックスの色指定*/
+.flow02 .box03 { background: #78E4FE; } /* ３番目のボックスの色指定*/
+/* .flow02 .box03 { background: #78FED1; } ４番目のボックスの色指定 */
+ 
+/* ボックスの左側に三角形を作る */
+.flow02 .box:before {
+    border-left: 20px solid #FFFFFF; /* １番目の三角形は背景色と同じ色を指定 */
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    content: "";
+    position: absolute;
+    left: 0; /* ボックスの左に合わせて三角形を作る */
+    top: 0;
+}
+ 
+.flow02 .box02:before { border-left-color: #9B78FE; } /* ２番目の三角形は１番目のボックスと同じ色を指定 */
+.flow02 .box03:before { border-left-color: #789DFE; } /* ３番目の三角形は２番目のボックスと同じ色を指定 */
+/* .flow02 .box04:before { border-left-color: #78E4FE; } ４番目の三角形は３番目のボックスと同じ色を指定 */
+ 
+/* 最後のボックスにだけ、右側に付ける三角形を作成する */
+.flow02 .box03:after {
+    border-left: 20px solid #78FED1; /* 最後の三角形は最後のボックスと同じ色を指定 */
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    content: "";
+    position: absolute;
+    right: -20px; /* 三角形の幅の分だけ右にずらす */
+    top: 0;
+}
+ 
+.flow02 .box span {
+    padding-left: 20px; /* テキストの位置調整 */
+}
