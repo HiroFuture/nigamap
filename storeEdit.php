@@ -24,7 +24,7 @@ session_start();
 
   <div class="bg-light">
     <div class="container">
-      <div class="py-5 text-center">
+      <div class="py-4 text-center">
         <img src="img/logo.svg" width="192" />
         <h2>店舗編集フォーム</h2>
         <p class="lead">現在掲載されている店舗情報において誤りがある場合、訂正をしてください。</p>
