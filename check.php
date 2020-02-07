@@ -46,8 +46,8 @@ session_start();
     $telno = $_POST['telno'];
     $open = $_POST['open'];
     $close = $_POST['close'];
-    if(isset($_POST['check'])){
-        $check = $_POST['check'];
+    if(isset($_POST['down'])){
+        $check = $_POST['down'];
     }
 
     //セッション関数に渡す（次のページに渡すため）
@@ -56,7 +56,10 @@ session_start();
     $_SESSION['price'] = $price;
     $_SESSION['telno'] = $telno;
     $_SESSION['open'] = $open;
-    $_SESSION['close'] = $close;
+    $_SESSION['close'] = $close; 
+    if(isset($_POST['down'])){
+        $check = $_POST['down'];
+    }
     ?>
     <form action="send.php storeEdit.php" method="post">
         <table class="table table-striped mx-auto" style="width: 500px">
@@ -97,10 +100,10 @@ session_start();
                     <td><?= $close ?></td>
                 </tr>
             <?php endif; ?>
-            <?php if (!empty($check)) : ?>
+            <?php if (!empty($down)) : ?>
                 <tr>
                     <td>お店の状態</td>
-                    <td><?= $check ?></td>
+                    <td><?= $down ?></td>
                 </tr>
             <?php endif; ?>
 

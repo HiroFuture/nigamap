@@ -85,7 +85,7 @@ session_start();
             </div>
             <hr class="mb-4">
             <div class="custom-control custom-checkbox">
-              <input type="checkbox" class="custom-control-input" name="check" value="閉店しています" id="keepCheck">
+              <input type="checkbox" class="custom-control-input" name="down" value="閉店しています" id="keepCheck">
               <label class="custom-control-label" for="keepCheck">閉店しています</label>
             </div>
 
